@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Oswald',
+    sans-serif;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(17, 83, 114);
+}
+
+.banner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: .25;
+}
+
+.banner .content {
+  position: relative;
+  text-align: center;
+  max-width: 750px;
+}
+
+.banner .content h2 {
+  font-size: 40px;
+  color: #fff;
+}
+
+.banner .content p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.banner header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  z-index: 10000;
+
+}
+
+.banner header a {
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 35px;
+  color: #fff;
+}
+
+.banner header .toggle {
+  position: relative;
+  width: 36px;
+  height: 28px;
+  background-image: url("/images/toggle.png");
+  background-size: cover;
+  cursor: pointer;
+}
+
+/* Abount ME start */
+.about {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.about .contentbox {
+  width: 50%;
+  background-color: #162b3c;
+  padding: 100px;
+}
+
+.heading {
+  color: #fff;
+  font-size: 23px;
+  letter-spacing: 1px;
+}
+
+.text {
+  color: #ddd;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.about .imagbox {
+  background: url("/images/window.jpg");
+  width: 50%;
+  background-size: cover;
+}
+
+/* service */
+.services {
+  text-align: center;
+  background-color: #12222d;
+  padding: 80px;
+
+}
+
+.services .container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
+
+}
+
+.services .container .servicebox {
+  background-color: #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 400px;
+}
+
+.services .container .servicebox img {
+  max-width: 100px;
+}
+
+.services .container .servicebox h2 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+/* Teknology  */
+.teknology {
+  width: 100%;
+  background-color: #3f8ffc;
+  padding-top: 300px;
+  margin-top: -200px;
+  padding: 200px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+
+}
+
+.teknology .contentbox {
+  max-width: 800px;
+}
+
+.teknology .imagebox {
+  max-width: 250px;
+}
+
+.teknology .imagebox img {
+  width: 100%;
+}
+
+/* Client */
+
+.client {
+  background-color: #12222d;
+  padding: 100px;
+  text-align: center;
+
+}
+
+.client .imagebox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.client .imagebox img {
+  max-width: 200px;
+  opacity: 0.2;
+  cursor: pointer;
+  transition: 300ms all;
+  -webkit-transition: 300ms all;
+  -moz-transition: 300ms all;
+  -ms-transition: 300ms all;
+  -o-transition: 300ms all;
+}
+
+.client .imagebox img:hover {
+  opacity: 1;
+}
+
+/* Testimoilsy */
+.test {
+  background-color: #162b3c;
+  padding: 100px;
+  text-align: center;
+}
+
+.test .container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 40px;
+}
+
+.test .container .contentBox {
+  background-color: #fff;
+  padding: 40px 30px;
+  margin-left: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  text-align: left;
+}
+
+.test .container .contentBox h3 {
+  color: #3f8ffc;
+  text-align: end;
+
+}
