@@ -328,3 +328,155 @@ body {
 .form .inputbox input[type="submit"]:hover {
   background-color: rgba(255, 255, 255, 0.684);
   color: black;
+}
+
+/* Footer */
+.footer {
+  padding: 30px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #12222d
+}
+
+.footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.footer ul li {
+  list-style-type: none;
+}
+
+.footer ul li a {
+  margin-right: 10px;
+}
+
+.footer ul li a img {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 3px;
+  transition: 300ms all;
+  -webkit-transition: 300ms all;
+  -moz-transition: 300ms all;
+  -ms-transition: 300ms all;
+  -o-transition: 300ms all;
+}
+
+.footer ul li:nth-child(1) a img:hover {
+  color: #fff;
+  background-color: #3B5998;
+}
+
+.footer ul li:nth-child(2) a img:hover {
+  color: #fff;
+  background-color: #55ACEE;
+}
+
+.footer ul li:nth-child(3) a img:hover {
+  color: #fff;
+  background-color: #007AB9
+}
+
+.footer ul li:nth-child(4) a img:hover {
+  color: #fff;
+  background-color: #ccc;
+}
+
+/* Responsive */
+@media(max-width:991px) {
+
+  .banner header {
+    padding: 20px 50px;
+  }
+
+  .banner .content {
+    padding: 50px;
+
+  }
+
+  .banner .content h2 {
+    font-size: 30px;
+  }
+
+  .banner .content p {
+    font-size: 15px;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+  .about .contentbox,
+  .about .imagbox {
+    width: 100%;
+    padding: 50px;
+    min-height: 400px;
+    align-items: center;
+  }
+
+  .services {
+    padding: 30px;
+  }
+
+  .teknology {
+    padding: 200px 50px;
+
+  }
+
+  .client {
+    padding: 50px;
+  }
+
+  .client .imagebox {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .client .imagebox img {
+    margin-bottom: 15px;
+  }
+
+  .test {
+    padding: 50px;
+
+  }
+
+  .test .container {
+    flex-direction: column;
+  }
+
+  .test .container .contentBox {
+    padding: 40px 30px;
+    margin-left: 0;
+    margin-top: 20px;
+
+
+  }
+
+  .contact {
+    padding: 50px;
+  }
+
+  .footer ul li a img {
+    margin-top: 10px;
+  }
+
+  .about {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
